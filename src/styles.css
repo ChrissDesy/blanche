@@ -1,0 +1,68 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: BrownStd-Bold;
+    font-weight: bold;
+    src: url("./assets/fonts/BrownStd-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: BrownStd-Light;
+    font-weight: lighter;
+    src: url("./assets/fonts/BrownStd-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: BrownStd-Normal;
+    font-weight: normal;
+    src: url("assets/fonts/BrownStd-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: BigCaslon;
+    font-weight: normal;
+    src: url("assets/fonts/Big Caslon Medium.ttf") format("truetype");
+}
+
+body {
+    font-family: 'BrownStd-Normal', 'BigCaslon' !important;
+}
+
+.bg-beige-lt {
+    background-color: #F6F6F6 !important;
+}
+
+.text-theme {
+    color: #6A6A6A !important;
+}
+
+#mainArea {
+    background-image: url('assets/images/png/image1.png');
+    height: 88vh;
+    background-repeat: no-repeat;
+}
+
+.shopButton {
+    bottom: 10%;
+    position: absolute;
+}
+
+.text-faded {
+    color: #d5d8da !important;
+}
+
+aside > ul > li {
+    margin-top: 2%;
+}
+
+.font-bigcaslon {
+    font-family: 'BigCaslon';
+}
+
+.font-brownlight {
+    font-family: 'BrownStd-light';
+}
+
+.pdt-card {
+    height: 60vh;
+    text-align: center;
+}
